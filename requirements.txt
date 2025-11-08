@@ -1,0 +1,6 @@
+fastapi>=0.70.0
+uvicorn>=0.15.0
+pydantic>=1.9.0
+transformers>=4.30.0
+torch>=2.0.0  # CPU version; for CUDA support use specific torch packages
+python-multipart  # for FastAPI file uploads
