@@ -88,6 +88,8 @@ async def models_status():
     return info
 
 
+
+
 @app.post("/batch_predict")
 async def batch_predict(batch: BatchTextIn):
     """Predict a batch of texts; returns list of {label, score} objects."""
